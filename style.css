@@ -1,0 +1,287 @@
+body {
+  margin: 0;
+}
+#navbar {
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+  background-color: #1b325f;
+  color: #b8e0d2;
+  font-size: 20px;
+  padding: 7px 40px 7px 40px;
+  /* for my own knowledge this is top right bottom left */
+  background-image:
+    linear-gradient(rgba(184, 224, 210, 0.06) 1px, transparent 1px),
+    linear-gradient(90deg, rgba(184, 224, 210, 0.06) 1px, transparent 1px);
+
+  background-size: 50px 50px;
+}
+
+#link-user {
+  display: flex;
+  gap: 30px;
+
+  color: #b8e0d2;
+}
+
+#link-user a {
+  color: #b8e0d2;
+  text-decoration: none;
+}
+
+#part-1 {
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+
+  min-height: 380px;
+  padding: 30px 60px;
+
+  background-color: #9cc4e4;
+  color: #2e7175;
+
+  background-image:
+    radial-gradient(circle, #ffffff 1px, transparent 1px),
+    radial-gradient(circle, #ffffff 1px, transparent 1px);
+
+  background-size:
+    80px 80px,
+    120px 120px;
+
+  background-position:
+    20px 30px,
+    60px 70px;
+}
+
+#overview {
+  padding-left: 20px;
+}
+#overview h2 {
+  font-size: 40px;
+  margin: 10px 0;
+}
+
+#overview p {
+  font-size: 18px;
+  line-height: 1.7;
+}
+
+#pic {
+  width: 420px;
+  height: 300px;
+  border-radius: 10% 20%;
+  object-fit: cover;
+}
+button {
+  background-color: #76bbbf;
+  border: none; /* to remove the gray border */
+  transition: 0.3s;
+  box-shadow: 20px;
+  padding: 8px 15px;
+  font-size: 16px;
+  cursor: pointer;
+}
+button:hover {
+  background-color: #0394ef;
+}
+
+#img-2 {
+  padding: 10px 5px 3px 5px;
+  width: 400px;
+  height: 300px;
+  border-radius: 20%;
+  object-fit: cover;
+}
+
+#About {
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+  gap: 100px;
+  min-height: 550px;
+  padding: 40px 60px;
+  background-color: #1b325f;
+  color: #b8e0d2;
+
+  background-image:
+    linear-gradient(rgba(184, 224, 210, 0.06) 1px, transparent 1px),
+    linear-gradient(90deg, rgba(184, 224, 210, 0.06) 1px, transparent 1px);
+
+  background-size: 50px 50px;
+}
+
+#my-about p {
+  font-size: 18px;
+  line-height: 1.7;
+}
+
+#Projects {
+  text-align: center;
+  padding: 50px;
+  background-color: #9cc4e4;
+  color: #2e7175;
+
+  background-image:
+    radial-gradient(circle, #ffffff 1px, transparent 1px),
+    radial-gradient(circle, #ffffff 1px, transparent 1px);
+
+  background-size:
+    80px 80px,
+    120px 120px;
+
+  background-position:
+    20px 30px,
+    60px 70px;
+}
+
+#text-proj {
+  margin-bottom: 30px;
+}
+
+#text-proj p {
+  margin: 5px;
+}
+
+#p1 {
+  font-size: 18px;
+}
+
+#p2 {
+  font-size: 32px;
+  font-weight: bold;
+}
+
+.cards {
+  display: inline-block;
+  vertical-align: top;
+  width: 250px;
+  min-height: 200px;
+  margin: 15px;
+  padding: 20px;
+  background-color: rgb(207, 218, 233);
+  border-radius: 10px;
+  box-shadow: 0 4px 10px gray;
+  text-align: left;
+}
+
+.cards img {
+  width: 100%;
+  border-radius: 8px;
+}
+
+.cards h3 {
+  font-size: 22px;
+}
+
+.cards p {
+  line-height: 1.5;
+}
+
+.cards a {
+  display: inline-block;
+  margin-right: 10px;
+  padding: 8px 12px;
+  background-color: #1b325f;
+  color: white;
+  text-decoration: none;
+  border-radius: 5px;
+}
+
+#Skills {
+  text-align: center;
+  padding: 50px;
+  background-color: #1b325f;
+  min-height: 600px;
+
+  background-image:
+    linear-gradient(rgba(184, 224, 210, 0.06) 1px, transparent 1px),
+    linear-gradient(90deg, rgba(184, 224, 210, 0.06) 1px, transparent 1px);
+
+  background-size: 50px 50px;
+}
+
+#Skills h2 {
+  font-size: 32px;
+  margin-bottom: 30px;
+  color: #5ba0a3;
+}
+
+#skills-container {
+  display: flex;
+  justify-content: center;
+  gap: 20px;
+  flex-wrap: wrap;
+  padding: 8px;
+  gap: 50px;
+}
+
+.skill {
+  width: 280px;
+  padding: 20px;
+  background-color: white;
+  border-radius: 10px;
+  box-shadow: 0 4px 10px gray;
+}
+
+.skill img {
+  width: 200px;
+  height: 200px;
+  object-fit: contain;
+}
+
+.skill h3 {
+  color: #1b325f;
+}
+
+.skill p {
+  line-height: 1.5;
+}
+
+#Contact {
+  text-align: center;
+  padding: 60px;
+  background-color: #9cc4e4;
+  color: #2e7175;
+
+  background-image:
+    radial-gradient(circle, #ffffff 1px, transparent 1px),
+    radial-gradient(circle, #ffffff 1px, transparent 1px);
+
+  background-size:
+    80px 80px,
+    120px 120px;
+
+  background-position:
+    20px 30px,
+    60px 70px;
+}
+
+#Contact h2 {
+  font-size: 32px;
+  margin-bottom: 15px;
+}
+
+#Contact p {
+  font-size: 18px;
+  margin-bottom: 30px;
+}
+
+#contact-links {
+  display: flex;
+  justify-content: center;
+  gap: 20px;
+}
+
+#contact-links a {
+  display: inline-block;
+  padding: 10px 20px;
+  background-color: #1b325f;
+  color: #b8e0d2;
+  text-decoration: none;
+  border-radius: 5px;
+}
+
+#contact-links a:hover {
+  background-color: #76bbbf;
+  color: #1b325f;
+}
